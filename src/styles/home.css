@@ -43,10 +43,11 @@ font-style: normal;
 font-weight: 400;
 line-height: 37.8px
 }
-.home_text a> svg{
+.download_btn> svg{
     font-size: 2rem !important;
 }
-.home_text a{
+
+.download_btn{
     margin-top: 1.8rem;
     border-radius: 100px;
 
@@ -63,6 +64,7 @@ background: var(--green);
 padding: 0.6rem 2rem;
 width: fit-content;
 }
+
 .check{
     
     display: flex;
@@ -164,8 +166,244 @@ text-align: center;
 font-size: 15px;
 font-style: normal;
 font-weight: 400;
-padding-top: 0.6rem;
+padding-top: 0.4rem;
 }
+
+.glob{
+    background: #E6F7F1;
+    color: #111827;
+    padding: 6rem 12%;
+}
+
+
+.glob_text{
+    text-align: center;
+}
+
+.glob_text h2{
+    font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: 60px;
+letter-spacing: -1px;
+}
+
+.glob_text p{
+    padding-top: 2rem;
+    font-size: 1.3rem;
+font-style: normal;
+font-weight: 400;
+line-height: 37.8px;
+}
+
+.video {
+    position: relative;
+    max-width: 100%;
+    margin-top: 4.7rem;
+  }
+  
+  video {
+    border-radius: 20px;
+    width: 100%;
+    height: 80vh;
+  }
+  
+  .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007BFF; /* Change to your desired button color */
+    color: #fff; /* Button text color */
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Change to the hover color you prefer */
+  }
+
+.why{
+    width: 100%;
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem ;
+
+}
+.why_text{
+    width: 100%;
+}
+.why_text span{
+    font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 19.6px; /* 140% */
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+
+.why_text h2{
+    padding-top: 2rem;
+}
+.why_text p{
+    padding-top: 2rem;
+    color: rgba(13, 13, 13, 0.80);
+font-size: 1.3rem;
+font-style: normal;
+font-weight: 400;
+line-height: 37.8px; /* 180% */
+}
+.why_list{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem
+    ;
+    width: 100%;
+    align-self: flex-end;
+}
+
+.why_card{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 10px 50px 0px rgba(52, 44, 108, 0.10);
+    padding: 2.5rem 1.8rem;
+    justify-self: end;
+    align-self: flex-end;
+}
+.card_text h4{
+    color: #1F2348;
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height: 26.6px; /* 140% */
+letter-spacing: -1px;
+
+}
+
+.card_text p{
+    color: #63657E;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; 
+padding-top: 1.2rem;
+}
+.easy{
+    padding: 10rem 12%;
+    background: #F5FFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+}
+.easy_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 2rem
+    ;
+}
+
+.easy_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;width: 100%;
+    gap: 2rem;
+}
+
+.easy_text{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.easy_text span{
+    color: #258A22;
+font-family: Onest;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 19.6px; /* 140% */
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+
+.easy_text p{
+    color: #63657E;
+font-family: Onest;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 37.8px; /* 180% */
+}
+
+.easy_1> img{
+    width: 25vw;
+}
+
+.text_body{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+.text_body p{
+    display: flex;
+    align-items: center;
+    color: #1F2348;
+    gap: 0.6rem;
+font-family: Onest;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px; /* 180% */
+}
+.body p{
+    color: #1F2348;
+font-family: Onest;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px; 
+padding-bottom: 0.5rem;
+}
+
+.bod{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bod span{
+    color: #63657E;
+font-family: Onest;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px; /* 180% */
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -184,10 +422,19 @@ padding-top: 0.6rem;
 
 @media screen and (max-width: 800px){
     .home_text{
-        width: 80%;
+        width: 100%;
+    }
+    .main{
+        flex-direction: column;
     }
     .home_img{
-        display: none;
+        width: 100%;
+        padding-top: 3rem;
+      
+    }
+    .home_img img{
+        width: 85%;
+        padding-left: 5%;
     }
     .home_text h1{
         color: #FFF;
