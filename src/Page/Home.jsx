@@ -10,6 +10,8 @@ import why2 from "../image/why2.png";
 import why3 from "../image/why3.png";
 import Easy from "./Easy";
 import Features from "./Features";
+import Pricing from "./Pricing";
+import Footer from "../components/Footer";
 
 const Home = () => {
   const why = [
@@ -102,7 +104,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="glob">
+      <div id="over" className="glob">
         <div className="glob_text">
           <h2>
             Globfolio is one of the best <br /> new traders app in Nigeria
@@ -159,6 +161,8 @@ const Home = () => {
       </div>
       <Easy/>
       <Features/>
+      <Pricing/>
+      <Footer/>
     </div>
   );
 };

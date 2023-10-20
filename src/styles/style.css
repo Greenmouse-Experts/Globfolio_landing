@@ -11,6 +11,8 @@
 .feature{
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(350px, 1fr));
+    justify-items: center !important;
+    align-items: center !important;
     gap: 3rem;
 }
 
@@ -69,3 +71,182 @@ line-height: 23.8px; /* 140% */
     display: flex;
     justify-content: center;
 }
+
+
+.reviews{
+    padding: 9rem 5%;
+    background: var(--green);
+}
+
+.reviews h2{
+    color: white;
+    text-align: center;
+
+}
+.reviews p{
+    color: white;
+    text-align: center;
+    padding-top: 2rem;
+  
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 37.8px; /* 180% */
+}
+.customer-review-slider {
+   width: 100%;
+    margin: 2rem auto;
+    gap: 2rem;
+    align-items: center; /* Center vertically */
+    overflow: hidden;
+    max-width: 100%; }
+  
+ 
+  /* Styling for individual review items */
+  .customer-review-item {
+    padding-right: 3rem !important;
+    
+   
+
+}
+
+
+  .customer-review-item> div{
+    background: white; 
+     transition: transform 0.5s ease;
+    text-align: left;
+    width: 430px;
+    padding: 20px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 7px 30px 0px rgba(31, 35, 72, 0.07);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  /* Styling for star ratings */
+  .star-rating {
+    font-size: 24px;
+    color: #f0c419; /* Star color */
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+  }
+
+  .star-rating span{
+
+  }
+  /* Styling for the "4.8" star rating in each review */
+.star-rating span {
+    height: fit-content;
+    width: fit-content;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37.8px;
+    color: black;
+    padding: 0 0.5rem;
+    border-radius: 100px;
+background: #FAEAF0;
+}
+
+.star-rating.review-0 span{
+
+}
+
+.star-rating.review-1 span{
+    background: #E5E9FF;
+}
+
+.star-rating.review-2 span{
+}
+
+.star-rating.review-3 span{
+    background: #E8F7F7;
+  
+}
+  .customer-review-item p {
+    color: #000;
+text-align: left;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 37.8px; /* 180% */
+  }
+  
+
+  .slick-center .customer-review-item {
+    transform: scale(1.1); /* Increase size of active item */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add shadow to active item */
+  }
+  .name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 1.5rem;
+    gap: 1rem;
+  }
+  .name p{
+    display: flex;
+    flex-direction: column;
+    padding: 0 ;
+    color: #1F2348;
+font-family: Onest;
+font-size: 21px;
+font-style: normal;
+font-weight: 500;
+line-height: 37.8px; /* 180% */
+
+  }
+
+  .name p span{
+    padding-top: 0;
+    margin: 0;
+    color: #63657E;
+font-family: Onest;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px; /* 180% */
+  }
+
+
+.best{
+    padding: 9rem 10%;
+    display: flex;
+    flex-direction: row;
+    background: #F5FFFF;
+    gap: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.best_img{
+    width: 40%;
+}
+.best img{
+    width: 100%;
+    border-radius: 30px;
+}
+.best_text{
+    width: 45%;
+}
+.best h4{
+    color: #1F2348;
+font-family: Onest;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 19.6px; /* 140% */
+letter-spacing: 2px;
+text-transform: uppercase;
+padding-bottom: 2rem;
+}
+
+.best p{
+    color: #63657E;
+font-family: Onest;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 37.8px; /* 180% */
+padding-top: 2rem;
+}
+

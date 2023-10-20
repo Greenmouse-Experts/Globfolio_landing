@@ -40,6 +40,165 @@
 }
 
 
+footer{
+    background: var(--back);
+    color: white;
+    width: 100%;
+}
+
+.footer_head{
+    margin: 0 1.5rem;
+    padding: 4rem 8%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ffffff73;
+    height: fit-content;
+}
+
+.footer_head a{
+    color: #FFF;
+text-align: center;
+font-family: Onest;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+border-radius: 8px;
+background: #258A22;
+padding: 0.8rem 1.4rem;
+}
+
+.footer_body{
+    padding: 5rem 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.footer_body > div{
+    width: 25%;
+}
+
+.foot1{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem  ;
+}
+.foot1 img{
+    width: 8rem;
+   
+}
+
+.foot1 h4{
+    color: #FFF;
+font-family: Onest;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24.96px; /* 156% */
+}
+.foot1 p{
+    color: #E2E7EC;
+font-family: Onest;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21.98px; /* 157% */
+}
+
+.social{
+    padding-top: 1.5rem;
+}
+
+.social svg{
+    font-size: 1.4rem ;
+    margin-right: 0.6rem;
+}
+
+.links div{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.links a{
+    width: fit-content;
+    color: #FFF;
+font-family: Onest;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+
+
+.news p{
+    padding-top: 2rem;
+    color: #FFF;
+    font-family: Onest;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+
+.divv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 8px;
+    justify-content: space-between;
+    border: 1px solid #7F8995;
+    height: 3rem;
+    margin-top: 3rem;
+}
+.divv input{
+    border-radius: 8px;
+    color: white;
+    background: transparent;
+    border: none;
+    padding: 0.5rem;
+}
+
+.divv button{
+    background: #258A22;
+    height: 100%;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    
+}
+
+.divv button:hover{
+    background: #258A22;
+    height: 100%;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    
+}
+
+.c_tag{
+    width: 100%;
+    padding: 4rem 8%;
+    border-top: 1px solid #ffffff73;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #949BCC;
+text-align: center;
+font-family: Onest;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px; 
+
+}
+
+
 
 
 

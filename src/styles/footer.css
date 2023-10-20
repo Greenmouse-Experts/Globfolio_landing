@@ -1,0 +1,327 @@
+.price_main{
+    padding: 9rem 8%;
+    background: #E8F7F7;
+}
+
+.price_main h2{
+    text-align: center;
+    background: #E8F7F7;
+}
+
+.price_main> p{
+    color: #63657E;
+text-align: center;
+font-family: Onest;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 37.8px; /* 180% */
+padding-top: 2rem;
+}
+.price_main a{
+    color: #1F2348;
+font-family: Onest;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 23.8px; 
+display: flex; align-items: center; width: fit-content;
+gap: 1rem;
+}
+
+.faq_link{
+    display: flex;
+    width: 100%;    
+   
+    margin-top: 4rem;
+
+    text-align: center !important;
+    justify-content: center;
+}
+
+.price-list{
+    padding-top: 4rem;
+    width: 100%;
+    display: grid;
+    /* grid-template-columns: repeat(auto-fill,minmax(300px, 1fr)); */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    place-items: center;
+}
+.price_card{
+    border-radius: 20px;
+background: #FFF;
+box-shadow: 0px 12px 34px 0px rgba(14, 17, 44, 0.07);
+padding: 3rem 2.5rem;
+text-align: center;
+display: flex;
+flex-direction: column;
+
+}
+
+.price_card h4{
+    color: #1F2348;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26.6px; /* 140% */
+    letter-spacing: -1px;
+}
+
+.price_card h3{
+    color: #1F2348;
+font-family: Onest;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; 
+display: flex;
+align-items: center;
+justify-content: center;
+padding-top: 2rem;
+}
+
+.price_card h3 span{
+    color: #1F2348;
+font-family: Onest;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: 67.2px; /* 140% */
+letter-spacing: -1px;
+}
+
+.price_card p{
+    color: #63657E;
+text-align: center;
+font-family: Onest;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30.4px; /* 190% */
+padding-top: 1rem;
+}
+
+.price_card a{
+    border-radius: 100px;
+background: #258A22;
+padding: 1.2rem 2.5rem;
+color: #FFF;
+text-align: center;
+font-family: Onest;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 100% */
+margin-top: 2rem;
+width: fit-content;
+align-self: center;
+}
+
+.price_card ul{
+    padding-top: 2rem;
+    text-align: left;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.price_card li{
+    color: #63657E;
+font-family: Onest;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px; 
+}
+
+.our{
+    padding: 8rem 8%;
+    background: #111827;
+}
+
+.our h2{
+    color: white;
+    text-align: center;
+}
+
+.logoo{
+    padding-top: 7rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.faq{
+    padding: 8rem 8%;
+    background: #FAEAF0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.faq> p{
+    color: #63657E;
+text-align: center;
+font-family: Onest;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 37.8px; /* 180% */
+padding-top: 2rem;
+}
+
+.faq_main{
+    margin-top: 3.5rem;
+    border-radius: 20px;
+background: #FFF;
+box-shadow: 0px 12px 34px 0px rgba(14, 17, 44, 0.07);
+width: 65%;
+
+}
+
+.faq_content{
+    padding:1.5rem 0 ;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 0 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    color: #1F2348;
+font-family: Onest;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 27.2px; /* 170% */
+}
+
+.faq_head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.faq_icon svg{
+    font-size: 1.4rem;
+}
+
+.faq_body{
+    padding-left: 2rem;
+}
+
+.contact{
+    padding: 8rem 8%;
+    background: #E8F7F7;
+}
+
+.contact h2{
+    text-align: center;
+}
+.contact> p{
+    text-align: center;
+    color: #63657E;
+text-align: center;
+font-family: Onest;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 37.8px; /* 180% */
+padding-top: 2rem;
+}
+
+.contact_main{
+    margin-top: 3.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between !important;
+    gap:2rem;
+}
+
+.contact_right{
+    
+    border-radius: 20px;
+background: #FFF;
+    padding: 3.2rem 4rem 3.2rem 1.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem    ;
+    box-shadow: 0px 12px 34px 0px rgba(14, 17, 44, 0.07);
+
+}
+.contact_right div{
+    display: flex;
+    flex-direction: row;
+    align-items: center !important;
+    gap: 1.5rem
+    ;
+    color: #63657E;
+font-family: Onest;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30.4px; /* 190% */
+}
+.contact_left{
+width:62%;
+}
+.contact_left form{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 1.4rem;
+   
+}
+
+.contact form input{
+    border-radius: 20px;
+background: #FFF;
+padding: 0.8rem 2.5rem;
+border: none;color: #63657E;
+font-family: Onest;
+width: 100%;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30.4px; /* 190% */
+}
+.double{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.contact textarea{
+    border-radius: 20px;
+    background: #FFF;
+    padding: 0.8rem 2.5rem;
+    border: none;color: #63657E;
+    font-family: Onest;
+    width: 100%;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30.4px; /* 190% */
+    height: 8rem;
+    resize: none;
+}
+
+.contact button{
+    border-radius: 20px;
+background: #258A22;
+color: #FFF;
+text-align: center;
+font-family: Onest;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30.4px; /* 190% */
+padding:1rem ;
+}

@@ -6,9 +6,49 @@ import icon3 from "../image/icon3.svg"
 import icon4 from "../image/icon4.svg"
 import icon5 from "../image/icon5.svg"
 import icon6 from "../image/icon6.svg"
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import  best from "../image/mockuuups-young-lady-holding-an-iphone-12-mockup 1.png"
+import { AiFillApple } from "react-icons/ai";
 
 
 const Features = () => {
+    const customerReviews = [
+        {
+          id: 1,
+          rating: "★★★★★",
+          name: "John Doe",
+          body: ' "Globfolio has been a lifechanger for me as I now make 15%-20% profit on my trades" ',
+          profilePic: "john-doe.jpg",
+        },
+        {
+          id: 2,
+          rating: "★★★★★",
+          name: "Jane Smith",
+          body: ' "Globfolio has been a lifechanger for me as I now make 15%-20% profit on my trades" ',
+          profilePic: "jane-smith.jpg",
+        },{
+            id: 3,
+            rating: "★★★★★",
+            name: "Jane Smith",
+            body: ' "Globfolio has been a lifechanger for me as I now make 15%-20% profit on my trades" ',
+            profilePic: "jane-smith.jpg",
+          },
+          {
+            id: 4,
+            rating: "★★★★★",
+            name: "Jane Smith",
+            body: ' "Globfolio has been a lifechanger for me as I now make 15%-20% profit on my trades" ',
+            profilePic: "jane-smith.jpg",
+          },
+      
+        
+      ];
+
+
+
+
     const feat = [
         {
             icon: icon1,
@@ -43,6 +83,46 @@ const Features = () => {
 
     ]
 
+    const settings = {
+        dots: true, // Show dots for navigation
+        infinite: true,
+        speed: 500,
+        slidesToShow: 2.85,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,  
+         responsive: [
+            {
+              breakpoint: 1421,
+              settings: {
+                slidesToShow: 2.5,
+                slidesToScroll: 1,
+              },
+            },
+            {
+                breakpoint: 1201,
+                settings: {
+                  slidesToShow: 2.2,
+                  slidesToScroll: 1,
+                },
+              },
+            {
+              breakpoint: 960,
+              settings: {
+                slidesToShow: 1.5,
+                slidesToScroll: 1,
+              },
+            },{
+                breakpoint: 768,
+                settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                },
+              },
+          ],
+      };
+      
+      
   return (
     <div className="main_body">
         <div className="features">
@@ -62,6 +142,42 @@ const Features = () => {
 </svg></a>
             </div>
         
+        </div>
+
+        <div className="reviews">
+            <h2 className="h2">
+            Customer Reviews
+            </h2>
+            <p>Keep tabs on your finance journey with us</p>
+
+            <div className="customer-review-slider">
+            <Slider {...settings}>
+        {customerReviews.map((review, index) => (
+          <div key={review.id} className={`customer-review-item review-${index}`}>
+            <div className="">
+                <div className={`star-rating review-${index}`}>{review.rating} <span>4.8</span></div>
+            <p>{review.body}</p>
+            <div className="name"><svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52" fill="none">
+  <circle cx="26" cy="26" r="26" fill="#D9D9D9"/>
+</svg> <p> Victor Ok <span>UI Designer</span></p></div>
+            </div>
+            
+          </div>
+        ))}
+      </Slider>
+            </div>
+        </div>
+
+        <div className="best">
+            <div className="best_img"><img src={best} alt="" /></div>
+            <div className="best_text">
+                <h4>STOCKS SIMPLIFIED</h4>
+                <h2 className="h2">The Best Stock <br /> Advisory App for 2023</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean scelerisque, est sed luctus vestibulum.</p>
+                <a className="download_btn" href="#d">
+              <AiFillApple /> Download App
+            </a>
+            </div>
         </div>
     </div>
   )

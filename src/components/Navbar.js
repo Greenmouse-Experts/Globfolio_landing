@@ -57,7 +57,7 @@ const Navbar = () => {
         <a onClick={toggle} onBlur={hide} onFocus={show} href="#over">
           Overview
         </a>
-        <a onClick={toggle} onBlur={hide} onFocus={show} href="#pricing">
+        <a onClick={toggle} onBlur={hide} onFocus={show} href="#price">
           Pricing
         </a>
         <a onClick={toggle} onBlur={hide} onFocus={show} href="#faq">
