@@ -76,7 +76,7 @@ padding: 0.8rem 1.4rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 5rem;
+    gap: 3rem;
 }
 
 .footer_body > div{
@@ -200,7 +200,24 @@ line-height: 27px;
 
 
 
+@media screen and (max-width: 950px){
+    .footer_head{
+        flex-direction: column;
+    }
+    .footer_head a{
+        margin-top: 2rem !important;
+    }
+    .footer_body{
+        width: 100%;
+        flex-direction: column;
+       
+    }
+    .footer_body > div{
+        width: 80%;
+       
+    }
 
+}
 
 @media screen and (max-width: 800px){
 

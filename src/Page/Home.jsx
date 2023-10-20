@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React from "react";
 import Navbar from "../components/Navbar";
 import "../styles/home.css";
 import home from "../image/home.png";
@@ -38,15 +38,15 @@ const Home = () => {
     },
   ];
 
-  const [isPlaying, setIsPlaying] = useState(false);
-  const videoRef = useRef(null);
+    // const [isPlaying, setIsPlaying] = useState(false);
+    // const videoRef = useRef(null);
 
-  const handlePlayClick = () => {
-    if (videoRef.current) {
-      videoRef.current.play();
-      setIsPlaying(true);
-    }
-  };
+    // const handlePlayClick = () => {
+    //   if (videoRef.current) {
+    //     videoRef.current.play();
+    //     setIsPlaying(true);
+    //   }
+    // };
   return (
     <div className="home_container">
       <Navbar />
@@ -117,7 +117,7 @@ const Home = () => {
             advice, and find inspiration.
           </p>
         </div>
-        <div className="video">
+        {/* <div className="video">
           <video ref={videoRef} controls>
             <source src="your-video.mp4" type="video/mp4" />
             Your browser does not support the video tag.
@@ -127,7 +127,7 @@ const Home = () => {
               <button onClick={handlePlayClick}>Watch Video</button>
             </div>
           )}
-        </div>
+        </div> */}
         <div className="why">
           <div className="why_text">
             <span>why GLOBFOLIO app?</span>
