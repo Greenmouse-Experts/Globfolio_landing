@@ -31,7 +31,17 @@ to the next level?</h2>
                     <a href="#price">Pricing</a>
                     <a href="#faq">Faq</a>
                     <a href="#contact">Contact Us</a>
+                  
                  </div>
+            </div>
+            <div className="links">
+                <div>
+                    <p></p>
+                    <a href="#d">Terms and condition</a>
+                    <a href="#d">Return Policy</a>
+                    <a href="#d">Privacy Policy</a>
+                </div>
+             
             </div>
             <div className="links">
                 <h4>Social</h4>
@@ -53,7 +63,7 @@ get our news delivered to you.</p>
             </div>
         </div>
         <div className="c_tag">
-            <p>© 2023 Globfolio</p>
+            <p>© 2023 Globfolio. All rights reserved.</p>
         </div>
     </footer>
   )

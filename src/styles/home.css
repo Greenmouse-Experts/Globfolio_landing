@@ -11,10 +11,10 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 3rem;
+    gap: 2rem;
 }
 .home_img img{
-    width: 500px;
+    width: 550px;
     height: auto;
 }
 
@@ -353,10 +353,13 @@ line-height: 37.8px; /* 180% */
 }
 
 .easy_1> img{
-    width: 25vw;
+    width: 20vw;
+    height: 85vh;
 }
 .easy_2> img{
-    width: 25vw;
+    width: 20vw;
+    height: 85vh;
+
 
 }
 .text_body{
@@ -421,6 +424,14 @@ line-height: 27px; /* 180% */
         width: 100%;
         height: 100%;
     }
+    .easy_2> img{
+     
+        height: auto;
+    }
+    .easy_1> img{
+       
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 980px){
@@ -439,9 +450,6 @@ line-height: 27px; /* 180% */
         padding: 3.5rem 2.8rem;
 
     }
-}
-
-@media screen and (max-width: 800px){
     .easy_1{
         flex-direction: column;
     }
@@ -449,13 +457,19 @@ line-height: 27px; /* 180% */
         flex-direction: column-reverse;
     }
     .easy_2> img{
-        width: 40vw;
+        width: 55%;
         margin-bottom: 2rem;
+        height: 60vh;
     }
     .easy_1> img{
-        width: 40vw;
+        width: 55%;
+        height: 60vh;
         margin-bottom: 2rem;
     }
+}
+
+@media screen and (max-width: 800px){
+    
     h2{
         font-size: 2.8rem !important;
         line-height: 50px !important;
@@ -483,7 +497,18 @@ line-height: 27px; /* 180% */
     line-height: 70px;
     }
 }
-
+@media screen and (max-width: 650px) {
+    .easy_2> img{
+        width: 65%;
+        margin-bottom: 2rem;
+        height: 50vh;
+    }
+    .easy_1> img{
+        width: 65%;
+        height: 50vh;
+        margin-bottom: 2rem;
+    }
+}
 @media screen and (max-width: 550px){
    
     .home_text{
@@ -521,6 +546,23 @@ line-height: 27px; /* 180% */
 }
 
 @media screen and (max-width: 380px) {
+    .home_text h1{
+        font-size: 2.8rem;
+        line-height: 50px;
+    }
+    .home_text p{
+        font-size: 1rem;
+        line-height: 30px;
+    }
+    .check{
+        flex-direction: column;
+        gap:0
+        ;
+        padding-top: 2rem;
+    }
+    .check p{
+        padding-top: 0;
+    }
     .star_1 h3{
         margin-top: 0;
     }
@@ -529,4 +571,15 @@ line-height: 27px; /* 180% */
          padding: 3.5rem 1rem;
  
      }
+
+     .easy_2> img{
+        width: 80%;
+        margin-bottom: 2rem;
+        height: 50vh;
+    }
+    .easy_1> img{
+        width: 80%;
+        height: 50vh;
+        margin-bottom: 2rem;
+    }
 }

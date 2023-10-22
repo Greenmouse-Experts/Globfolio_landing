@@ -138,6 +138,7 @@ line-height: 27px;
 .our{
     padding: 8rem 8%;
     background: #111827;
+    display: none;
 }
 
 .our h2{
@@ -354,12 +355,29 @@ padding:1rem ;
     .faq_main{
         width: 100%;
     }
+
+    .double{
+        flex-direction: column;
+        gap:1.4rem
+    }
 }
 
 
 @media screen and (max-width: 550px){
     .logoo img{
         width: 12rem ;
+    }
+
+    .contact_right img{
+        width: 4rem
+    }
+    .contact_right p{
+        font-size: 0.9rem;
+    }
+    .contact_right{
+        padding: 2.2rem 1rem 2.2rem 1rem;
+        gap: 1.5rem;
+
     }
 }
 

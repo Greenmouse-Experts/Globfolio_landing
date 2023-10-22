@@ -83,7 +83,8 @@ const Features = () => {
 
     ]
 
-    const settings = {
+    const settings = { centerMode: true,     // Enable center mode
+    centerPadding: "20px",
         dots: true, // Show dots for navigation
         infinite: true,
         speed: 500,
@@ -149,14 +150,14 @@ const Features = () => {
             Customer Reviews
             </h2>
             <p>Keep tabs on your finance journey with us</p>
-
+        
             <div className="customer-review-slider">
             <Slider {...settings}>
         {customerReviews.map((review, index) => (
           <div key={review.id} className={`customer-review-item review-${index}`}>
             <div className="">
                 <div className={`star-rating review-${index}`}>{review.rating} <span>4.8</span></div>
-            <p>{review.body}</p>
+            <p className='pp'>{review.body}</p>
             <div className="name"><svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52" fill="none">
   <circle cx="26" cy="26" r="26" fill="#D9D9D9"/>
 </svg> <p> Victor Ok <span>UI Designer</span></p></div>
