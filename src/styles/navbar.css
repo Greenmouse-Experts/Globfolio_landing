@@ -233,7 +233,13 @@ font-weight: 400;
 line-height: 27px; 
 
 }
-
+.disabled-link {
+    pointer-events: none; /* Makes the link non-clickable */
+    color: gray; /* Changes the text color to gray or any other color of your choice */
+    text-decoration: none; /* Removes the underline */
+    /* You can add more styles to visually indicate it's disabled */
+  }
+  
 
 
 @media screen and (max-width: 950px){
