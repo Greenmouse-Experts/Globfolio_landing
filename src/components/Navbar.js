@@ -73,6 +73,7 @@ const Navbar = () => {
         >
           Contact Us
         </a>
+        <a className="come" href="##" disabled={true}>Courses <span>Coming Soon</span></a>
         <a
           href="#h"
           className="download"

@@ -15,14 +15,48 @@
 
 }
 
+.navbar.fixed{
+    box-shadow:   0 4px 4px rgba(58, 57, 57, 0.333);
+
+}
+
 .nav_link{
     display: flex;
     flex-direction: row;
     gap: 2.6rem;
-    font-size: 1rem;
+    font-size: 0.9rem;
     align-items: center;
 }
+.come span{
+    margin-top: -20px;
+    margin-right: -40px;
+    font-size: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #258A22;
+    color: white;
 
+    border-radius: 10px;
+    padding: 3px 5px;
+}
+.come{
+    position: relative;
+    font-size: 0.9rem;
+    color: var(--back);
+    padding: 0;
+    border: none;
+    background:transparent;
+    margin-right: 1.3rem;
+}
+
+.nav_link button:hover{
+    font-size: 1rem;
+    color: var(--back);
+    padding: 0;
+    border: none;
+    background: transparent;
+}
 .nav_link a:last-child{
     padding: 0.6rem 2rem;
     color: white;
@@ -70,6 +104,8 @@ border-radius: 8px;
 background: #258A22;
 padding: 0.8rem 1.4rem;
 }
+
+
 
 .footer_body{
     padding: 5rem 8%;
@@ -219,8 +255,20 @@ line-height: 27px;
 
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1024px){
+.navbar{
+    padding-right: 2rem !important;
+}
+ .come span{
+    position: relative !important;
+    margin: 0 !important;
+ }
 
+ .come{
+
+ display: flex;
+ justify-content: space-between;
+ }
 .nav_toggle{
     position: absolute;
     justify-content: center;
@@ -279,7 +327,7 @@ line-height: 27px;
     border-bottom: 1px solid rgb(220, 219, 219);
     display: flex;
     align-items: center;
-    padding: 2em 4em 2em 12%;
+    padding: 2em 4em 2em 14%;
     animation: nav 600ms ease forwards;
     transform: rotateY(60deg);
     opacity: 0;

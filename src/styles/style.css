@@ -103,8 +103,7 @@ line-height: 37.8px; /* 180% */
   
  
   .customer-review-item {
-    padding-right: 3rem !important;
-    
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -117,7 +116,6 @@ line-height: 37.8px; /* 180% */
     background: white; 
      transition: transform 0.5s ease;
     text-align: left;
-    width: 430px;
     padding: 20px;
     border-radius: 20px;
     margin-right: 3rem;
@@ -257,7 +255,6 @@ padding-top: 2rem;
 
 @media screen and (max-width: 770px){
     .customer-review-item{
-        margin-right: 30rem !important;
         width: 100% !important;
     }
 
@@ -291,9 +288,7 @@ padding-top: 2rem;
     .pp{
         font-size: 1rem !important;
     }
-    .customer-review-item{
-        width: 300px!important;
-    }
+
 
     .pp{
         font-size: 1.1rem !important;
