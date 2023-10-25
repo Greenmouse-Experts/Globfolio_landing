@@ -58,6 +58,10 @@ const Home = () => {
             <span>Trade </span>Stocks, Crude Oil <br />and <span>Invest</span> in Fixed Income Like a Pro.
              
             </h1>
+            <h1 className="hid"> 
+            <span>Trade </span>Stocks, Crude Oil and <span>Invest</span> in Fixed Income Like a Pro.
+             
+            </h1>
             <p>
             Introducing the Globfolio app-- a platform for <br /> social traders and expert recommendations.
             </p>

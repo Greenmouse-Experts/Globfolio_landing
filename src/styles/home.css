@@ -21,6 +21,7 @@
 .home_text{
     display: flex;
     flex-direction: column;
+    
 }
 
 .home_text h1{
@@ -528,6 +529,9 @@ line-height: 27px; /* 180% */
     }
 }
 @media screen and (max-width: 650px) {
+    .home_text h1{
+        display: none;
+    }
     .glob{
         padding-left: 8%;
         padding-right: 8%;
