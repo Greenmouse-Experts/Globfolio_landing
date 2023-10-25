@@ -212,7 +212,7 @@ line-height: 27.2px; /* 170% */
 }
 
 .faq_body{
-    padding-left: 2rem;
+    padding-left: 3rem;
 }
 
 .contact{
@@ -343,7 +343,7 @@ padding:1rem ;
         gap: 3rem;  
     }
     .contact_right{
-        width: fit-content;
+        width: 100%;
     }
     .contact_left{
         width: 100%;

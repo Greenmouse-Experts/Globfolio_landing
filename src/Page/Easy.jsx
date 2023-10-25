@@ -22,16 +22,15 @@ const Easy = () => {
             setup and onboarding
           </h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing <br /> elit. Phasellus
-            sed fermentum metus onsectetur <br /> adipiscing elit. Phasellus
+          It takes less than a minute to sign up, subscribe to <br />GlobFolio app platform and enjoy seamless access <br /> to premium features
           </p>
           <div className="text_body">
             <p>
-              <img src={img1} alt="" /> Analyst Picks & Advisory
+              <img src={img1} alt="" /> Analyst Picks & Recommendations
             </p>
             <p>
               {" "}
-              <img src={img2} alt="" /> Connect With Investors
+              <img src={img2} alt="" /> Join Chatrooms
             </p>
             <p>
               <img src={img3} alt="" /> Grow Your Portfolio
@@ -43,7 +42,7 @@ const Easy = () => {
               <img src={img5} alt="" /> Push Notifications
             </p>
             <p>
-              <img src={img6} alt="" /> Market Monitoring Services
+              <img src={img6} alt="" /> Market News & Updates
             </p>
           </div>
         </div>
@@ -53,22 +52,20 @@ const Easy = () => {
           {" "}
           <span>EASY FUND TRACKING</span>
           <h2 className="h2">
-            Goal-setting with <br />
-            progress tracking{" "}
+          Early alerts on stocks to <br /> buy before they move
           </h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing <br /> elit. Phasellus
-            sed fermentum metus onsectetur <br /> adipiscing elit. Phasellus
+          Our rare insights and analysis shows you the best <br /> local and international stocks to buy before <br /> they actually move.
           </p>
           <div className="body">
             <p>
-              <AiOutlineCheck /> Real-time market trade watch
+              <AiOutlineCheck /> Real-time market trend
             </p>
             <p>
-              <AiOutlineCheck /> Analyzed stock data
+              <AiOutlineCheck /> Hottest stocks/ETFs to buy
             </p>
             <p>
-              <AiOutlineCheck /> Automatic categorization of stock markets
+              <AiOutlineCheck /> Group discussions.
             </p>
           </div>
         </div>
@@ -78,13 +75,12 @@ const Easy = () => {
         <img src={easy3} alt="" />
         <div className="easy_text">
           {" "}
-          <span>pay anyware, anytime</span>
+          <span>pay anywhere, anytime</span>
           <h2 className="h2">
-            Easy connection <br /> with other traders
+            Easily connect <br /> with other traders
           </h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing <br /> elit. Phasellus
-            sed fermentum metus onsectetur <br /> adipiscing elit. Phasellus
+          Our social features lets you join a chatroom, share <br /> ideas and discuss the hottest stocks, crude oil <br /> trend and fixed income opportunities.
           </p>
           <div className="bod">
             <div>

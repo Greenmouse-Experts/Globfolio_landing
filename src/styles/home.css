@@ -25,7 +25,7 @@
 
 .home_text h1{
     color: #FFF;
-font-size: 4.5rem;
+font-size: 4rem;
 font-style: normal;
 font-weight: 400;
 line-height: 91px;
@@ -272,7 +272,7 @@ line-height: 37.8px; /* 180% */
 }
 
 .why_card{
-    width: 80%;
+    width: 63%;
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -354,11 +354,11 @@ line-height: 37.8px; /* 180% */
 
 .easy_1> img{
     width: 20vw;
-    height: 85vh;
+    height: 75vh;
 }
 .easy_2> img{
     width: 20vw;
-    height: 85vh;
+    height: 75vh;
 
 
 }
@@ -368,6 +368,7 @@ line-height: 37.8px; /* 180% */
     gap: 1rem;
 }
 .text_body p{
+    padding-right: 1rem;
     display: flex;
     align-items: center;
     color: #1F2348;
@@ -411,6 +412,11 @@ line-height: 27px; /* 180% */
 
 
 
+@media screen and (max-width: 1560px){
+    .why_card{
+        width: 80%;
+    }
+}
 
 
 @media screen and (max-width: 1100px){
@@ -457,13 +463,13 @@ line-height: 27px; /* 180% */
         flex-direction: column-reverse;
     }
     .easy_2> img{
-        width: 55%;
+        width: 40%;
         margin-bottom: 2rem;
-        height: 60vh;
+        height: 65vh;
     }
     .easy_1> img{
-        width: 55%;
-        height: 60vh;
+        width: 40%;
+        height: 65vh;
         margin-bottom: 2rem;
     }
 }
@@ -499,18 +505,27 @@ line-height: 27px; /* 180% */
 }
 @media screen and (max-width: 650px) {
     .easy_2> img{
-        width: 65%;
+        width: 57%;
         margin-bottom: 2rem;
-        height: 50vh;
+        height: 60vh;
     }
     .easy_1> img{
-        width: 65%;
-        height: 50vh;
+        width: 57%;
+        height: 60vh;
         margin-bottom: 2rem;
     }
 }
 @media screen and (max-width: 550px){
-   
+    .easy_2> img{
+        width: 60%;
+        margin-bottom: 2rem;
+        height: 55vh;
+    }
+    .easy_1> img{
+        width: 60%;
+        height: 55vh;
+        margin-bottom: 2rem;
+    }
     .home_text{
         width: 100%;
     }
@@ -566,6 +581,8 @@ line-height: 27px; /* 180% */
     .star_1 h3{
         margin-top: 0;
     }
+
+    
     .why_card{
         width: 100%;
          padding: 3.5rem 1rem;
@@ -573,13 +590,13 @@ line-height: 27px; /* 180% */
      }
 
      .easy_2> img{
-        width: 80%;
+        width: 64%;
         margin-bottom: 2rem;
-        height: 50vh;
+        height: 45vh;
     }
     .easy_1> img{
-        width: 80%;
-        height: 50vh;
+        width: 64%;
+        height: 45vh;
         margin-bottom: 2rem;
     }
 }

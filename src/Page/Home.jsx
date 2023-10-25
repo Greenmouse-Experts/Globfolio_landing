@@ -2,7 +2,8 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import "../styles/home.css";
 import home from "../image/home.png";
-import { AiFillApple, AiOutlineCheck } from "react-icons/ai";
+import {  AiOutlineCheck } from "react-icons/ai";
+import {TbDownload} from "react-icons/tb"
 import sar from "../image/sar.png";
 import star from "../image/star.png";
 import why1 from "../image/why1.png";
@@ -18,23 +19,23 @@ const Home = () => {
     {
       id: 1,
       icon: why1,
-      head: "Get Stock Advisories",
+      head: "Stocks",
       title:
-        "Lorem ipsum dolor sit amet,  consectetur adipiscing elit. Phasellus sed fermentum metus",
+        "See our best stocks with huge upside potential in the Nigerian stock market.",
     },
     {
       id: 2,
       icon: why2,
-      head: "Get Stock Advisories",
+      head: "Crude Oil",
       title:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed fermentum metus",
+        "Take advantage of the volatility and trend in the energy market with expert insights and opinions.",
     },
     {
       id: 3,
       icon: why3,
-      head: "Get Stock Advisories",
+      head: "Fixed Income",
       title:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed fermentum metus",
+        "Protect your capital and enjoy stead returns year on year from our vetted low risk investment ideas",
     },
   ];
 
@@ -53,15 +54,15 @@ const Home = () => {
       <div id="home" className="home">
         <div className="main">
           <div className="home_text">
-            <h1>
-              Trade and <br /> <span>Invest</span> like a pro
+            <h1> 
+            <span>Trade </span>Stocks, Crude Oil <br />and <span>Invest</span> in Fixed Income Like a Pro.
+             
             </h1>
             <p>
-              Introducing Globfolio App — Ultimate trade and <br />
-              investment advisory app.
+            Introducing the Globfolio app-- a platform for <br /> social traders and expert recommendations.
             </p>
             <a className="download_btn" href="#d">
-              <AiFillApple /> Download App
+              <TbDownload /> Download App
             </a>
             <div className="check">
               <p>
@@ -107,14 +108,10 @@ const Home = () => {
       <div id="over" className="glob">
         <div className="glob_text">
           <h2>
-            Globfolio is one of the best <br /> new traders app in Nigeria
+          GlobFolio is a trusted community of traders <br /> and investors in the stocks, crude oil and <br /> fixed income market.
           </h2>
           <p>
-            Connect with a vibrant community of like-mind enthusiasts through{" "}
-            <br />
-            Globfolio’s social features. Share your achievements, exchange tips
-            and <br />
-            advice, and find inspiration.
+          Connect with a vibrant community of like-minds like you through our <br />secured social features , share investing ideas and discuss opportunities.
           </p>
         </div>
         {/* <div className="video">
@@ -132,16 +129,13 @@ const Home = () => {
           <div className="why_text">
             <span>why GLOBFOLIO app?</span>
             <h2 className="h2">
-              Simplifying the Stock <br /> Market for you..
+            Simplifying the Financial<br /> Market for you..
             </h2>
             <p>
-              Connect with a vibrant community of investment 
-              enthusiasts through Globfolio's social features. 
-              Share your achievements, exchange tips and 
-              advice, and find inspiration.
+            We do a top to bottom analysis of stocks, crude oil and fixed income markets while you profit from our recommendations
             </p>
             <a className="download_btn" href="#d">
-              <AiFillApple /> Download App
+              <TbDownload  /> Download App
             </a>
           </div>
           <div className="why_list">

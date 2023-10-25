@@ -9,11 +9,14 @@
 }
 
 .feature{
+    padding-top: 2rem;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(350px, 1fr));
-    justify-items: center !important;
+    justify-content: center !important;
     align-items: center !important;
     gap: 3rem;
+    
 }
 
 .feature_card{
@@ -242,6 +245,7 @@ padding-bottom: 2rem;
 }
 
 .best p{
+    width: 80%;
     color: #63657E;
 font-family: Onest;
 font-size: 21px;
@@ -252,6 +256,18 @@ padding-top: 2rem;
 }
 
 
+
+@media screen and (min-width:1838px) {
+    .feature{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center !important;
+        align-items: center !important;
+        gap: 3rem;
+        
+    }
+}
 
 @media screen and (max-width: 770px){
     .customer-review-item{
@@ -270,9 +286,11 @@ padding-top: 2rem;
     .best_img{
         width:100%;
     }
-    .best_img img{
+    .best p{
+        width: 100%;
         
     }
+    
 }
 @media screen and (max-width: 550px){
     .feature{
@@ -294,3 +312,4 @@ padding-top: 2rem;
         font-size: 1.1rem !important;
     }
 }
+

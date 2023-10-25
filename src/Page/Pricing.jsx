@@ -15,31 +15,46 @@ const Pricing = () => {
     {
       id: 1,
       head: "Where can I subscribe to your newsletter?",
-      body: "coming soon"
+      body: " It's an innovative community focused platform that helps you access global investment opportunities."
      
     },
     {
       id: 2,
-      head: "How do I subscribe to analysit’s picks?",
-      body: "coming soon"
+      head: "What are the advantages of joing a room?",
+      body: "You will connect with experienced investors and traders, tap from their ideas and see how the are managing their portfolio in different asset classes."
      
     },
     {
       id: 3,
-      head: "Is there a free lan for beginners?",
-      body: "coming soon"
+      head: "What room types do you have?",
+      body: "GlobFolio rooms options cover local and international stocks, fixed income market, Forex rates, commodities, real estates, and more.   Our team understand the risk and opportunities in each of our selected markets, so it's highly advise that you do your due diligence."
      
     },
     {
       id: 4,
-      head: "Is the stock market a reliable source of income?",
-      body: "coming soon"
+      head: "How is GlobFolio different from WhatsApp group?",
+      body: "We protect member's privacy by restricting access to random DMs, hence ensuring that you can safely talk about money without being exposed.  "
     
     },
     {
       id: 5,
-      head: "Can I receive advisories via my email?",
-    body: "coming soon"
+      head: "Are the rooms free or paid?",
+    body: "While some rooms are free to join, others are restricted to paid subscribers."
+    },
+    {
+      id: 6,
+      head: "Do you offer recommendations?",
+    body: "Yes! From time to time, you will receive updates from our team of experts who are not only experienced in the financial markets but have a proven track record of generating steady double-digit returns."
+    },
+    {
+      id: 7,
+      head: "How do I subscribe?",
+    body: "Select a plan that fits your personal risk and portfolio, then proceed to subscribe with Paystack."
+    },
+    {
+      id: 8,
+      head: "How do I contact your support?",
+    body: "Email at support@globfolio.com "
     },
   
   ];

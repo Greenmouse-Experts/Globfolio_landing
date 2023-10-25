@@ -14,7 +14,7 @@ import "react-multi-carousel/lib/styles.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
 import best from "../image/mockuuups-young-lady-holding-an-iphone-12-mockup 1.png";
-import { AiFillApple } from "react-icons/ai";
+import {TbDownload} from "react-icons/tb"
 
 const Features = () => {
 
@@ -72,33 +72,33 @@ const Features = () => {
   const feat = [
     {
       icon: icon1,
-      head: "Biometric Login",
-      body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed fermentum metus, porta congue sapien.",
+      head: "Secured Login",
+      body: "Globfolio makes use of more than one verification method in users’ authentication to secure users credentials",
     },
     {
       icon: icon2,
       head: "Personalized Dashboard",
-      body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed fermentum metus, porta congue sapien.",
+      body: "Each user gets access to a private and personalized dashboard to control all their activities on Globfolio ",
     },
     {
       icon: icon3,
-      head: "Goal-setting and knowledge",
-      body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed fermentum metus, porta congue sapien.",
+      head: "Investors' Community",
+      body: "Globfolio provides rooms and community for user to interact with professionals, investors and like-minds",
     },
     {
       icon: icon4,
       head: "Connection and Socialization",
-      body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed fermentum metus, porta congue sapien.",
+      body: "Our social features lets you join a chatroom, share ideas and discuss the hottest stocks, crude oil trend and fixed income opportunities.",
     },
     {
       icon: icon5,
-      head: "Daily Picks and Advisories",
-      body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed fermentum metus, porta congue sapien.",
+      head: "Professional Picks and Recommendations",
+      body: "We do a top to bottom analysis of stocks, crude oil and fixed income markets while you profit from our recommendations.",
     },
     {
       icon: icon6,
       head: "Seamless Account Setup",
-      body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed fermentum metus, porta congue sapien.",
+      body: "It takes less than a minute to sign up, subscribe to GlobFolio app platform and enjoy seamless access to premium features",
     },
   ];
 
@@ -227,11 +227,10 @@ const Features = () => {
             The Best Stock <br /> Advisory App for 2023
           </h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-            scelerisque, est sed luctus vestibulum.
+          Globfolio has surpassed all odds, becoming the number one a for social traders and stock enthusiasts globally.
           </p>
           <a className="download_btn" href="#d">
-            <AiFillApple /> Download App
+            <TbDownload /> Download App
           </a>
         </div>
       </div>
