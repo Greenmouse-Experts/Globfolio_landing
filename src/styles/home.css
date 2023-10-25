@@ -43,8 +43,15 @@ font-style: normal;
 font-weight: 400;
 line-height: 37.8px
 }
+
+.download_app{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
 .download_btn> svg{
     font-size: 2rem !important;
+    padding: 0;
 }
 
 .download_btn{
@@ -52,7 +59,7 @@ line-height: 37.8px
     border-radius: 100px;
 
     display: flex;
-    align-items: center;
+    align-items: center !important;
     flex-direction: row;
     gap: 0.5rem;
     font-size: 16px;
@@ -403,6 +410,18 @@ font-weight: 400;
 line-height: 27px; /* 180% */
 }
 
+.hid{
+    display: none;
+}
+
+.bla{
+    background: var(--back);
+}
+.blac{
+    background: white;
+    color: var(--green);
+}
+
 
 
 
@@ -419,12 +438,30 @@ line-height: 27px; /* 180% */
 }
 
 
+@media screen and (max-width: 1350px){
+    .home_img img{
+        width: 95%;
+        height: 95%;
+    }
+}
+
+
+
 @media screen and (max-width: 1100px){
     .home_text{
-        width: 45%;
+        width: 100%;
+    }
+    .main{
+        flex-direction: column;
     }
     .home_img{
-        width: 50%;
+        width: 90%;
+        padding-top: 3rem;
+      
+    }
+    .home_img img{
+        width: 85%;
+        padding-left: 5%;
     }
     .home_img img{
         width: 100%;
@@ -438,6 +475,7 @@ line-height: 27px; /* 180% */
        
         height: auto;
     }
+
 }
 
 @media screen and (max-width: 980px){
@@ -480,21 +518,7 @@ line-height: 27px; /* 180% */
         font-size: 2.8rem !important;
         line-height: 50px !important;
     }
-    .home_text{
-        width: 100%;
-    }
-    .main{
-        flex-direction: column;
-    }
-    .home_img{
-        width: 100%;
-        padding-top: 3rem;
-      
-    }
-    .home_img img{
-        width: 85%;
-        padding-left: 5%;
-    }
+    
     .home_text h1{
         color: #FFF;
     font-size: 4.5rem;
@@ -504,6 +528,17 @@ line-height: 27px; /* 180% */
     }
 }
 @media screen and (max-width: 650px) {
+    .glob{
+        padding-left: 8%;
+        padding-right: 8%;
+        width: 100%;
+    }
+    .glob_text h2{
+        display: none;
+    }
+    .hid{
+        display: block !important;
+    }
     .easy_2> img{
         width: 57%;
         margin-bottom: 2rem;
@@ -516,14 +551,18 @@ line-height: 27px; /* 180% */
     }
 }
 @media screen and (max-width: 550px){
+    .download_app{
+        flex-direction: column;
+        gap: 0;
+    }
     .easy_2> img{
         width: 60%;
         margin-bottom: 2rem;
-        height: 55vh;
+        height: 50vh;
     }
     .easy_1> img{
         width: 60%;
-        height: 55vh;
+        height: 50vh;
         margin-bottom: 2rem;
     }
     .home_text{
@@ -559,7 +598,19 @@ line-height: 27px; /* 180% */
         font-size: 2rem;
     }
 }
+@media screen and (max-width: 450px) {
+    .easy_2> img{
+        width: 67%;
+        margin-bottom: 2rem;
+        height: 45vh;
+    }
+    .easy_1> img{
+        width: 67%;
+        height: 45vh;
+        margin-bottom: 2rem;
+    }
 
+}
 @media screen and (max-width: 380px) {
     .home_text h1{
         font-size: 2.8rem;
@@ -592,11 +643,11 @@ line-height: 27px; /* 180% */
      .easy_2> img{
         width: 64%;
         margin-bottom: 2rem;
-        height: 45vh;
+        height: 40vh;
     }
     .easy_1> img{
         width: 64%;
-        height: 45vh;
+        height: 40vh;
         margin-bottom: 2rem;
     }
 }

@@ -42,8 +42,8 @@
 }
 .come{
     position: relative;
-    font-size: 0.9rem;
-    color: var(--back);
+    /* font-size: 1rem;
+    color: var(--back); */
     padding: 0;
     border: none;
     background:transparent;
@@ -192,11 +192,12 @@ line-height: 24px; /* 150% */
     border: 1px solid #7F8995;
     height: 3rem;
     margin-top: 3rem;
+    background: white;
 }
 .divv input{
     border-radius: 8px;
-    color: white;
-    background: transparent;
+    color: black;
+    
     border: none;
     padding: 0.5rem;
 }
@@ -378,4 +379,11 @@ line-height: 27px;
         opacity: 1;
     }
 }
+}
+
+@media screen and (max-width: 550px) {
+    .divv{
+        width: 90%;
+    }
+    
 }

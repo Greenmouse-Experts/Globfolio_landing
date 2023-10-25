@@ -2,8 +2,8 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import "../styles/home.css";
 import home from "../image/home.png";
-import {  AiOutlineCheck } from "react-icons/ai";
-import {TbDownload} from "react-icons/tb"
+import { AiFillApple, AiOutlineCheck } from "react-icons/ai";
+import {BiLogoPlayStore} from 'react-icons/bi'
 import sar from "../image/sar.png";
 import star from "../image/star.png";
 import why1 from "../image/why1.png";
@@ -61,9 +61,16 @@ const Home = () => {
             <p>
             Introducing the Globfolio app-- a platform for <br /> social traders and expert recommendations.
             </p>
-            <a className="download_btn" href="#d">
-              <TbDownload /> Download App
+            <div className="download_app">
+              <a className="download_btn blac" href="#d">
+              <AiFillApple /> Download App
             </a>
+            <a className="download_btn" href="#d">
+              <BiLogoPlayStore /> Download App
+            </a>
+            
+            </div>
+            
             <div className="check">
               <p>
                 <AiOutlineCheck /> Free 30 Days Trial
@@ -110,6 +117,10 @@ const Home = () => {
           <h2>
           GlobFolio is a trusted community of traders <br /> and investors in the stocks, crude oil and <br /> fixed income market.
           </h2>
+
+          <h2 className="hid">
+          GlobFolio is a trusted community of traders and investors in the stocks, crude oil and  fixed <br />income market.
+          </h2>
           <p>
           Connect with a vibrant community of like-minds like you through our <br />secured social features , share investing ideas and discuss opportunities.
           </p>
@@ -134,9 +145,15 @@ const Home = () => {
             <p>
             We do a top to bottom analysis of stocks, crude oil and fixed income markets while you profit from our recommendations
             </p>
-            <a className="download_btn" href="#d">
-              <TbDownload  /> Download App
+            <div className="download_app">
+              <a className="download_btn bla" href="#d">
+              <AiFillApple /> Download App
             </a>
+            <a className="download_btn" href="#d">
+              <BiLogoPlayStore /> Download App
+            </a>
+            
+            </div>
           </div>
           <div className="why_list">
             {why.map((item)=>(

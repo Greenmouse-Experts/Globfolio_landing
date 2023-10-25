@@ -12,9 +12,9 @@ import "react-multi-carousel/lib/styles.css";
 // import "slick-carousel/slick/slick.css";
 // import "slick-carousel/slick/slick-theme.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-
 import best from "../image/mockuuups-young-lady-holding-an-iphone-12-mockup 1.png";
-import {TbDownload} from "react-icons/tb"
+import { AiFillApple } from "react-icons/ai";
+import {BiLogoPlayStore} from 'react-icons/bi'
 
 const Features = () => {
 
@@ -34,7 +34,7 @@ const Features = () => {
     },
     mobile: {
       breakpoint: { max: 600, min: 0 },
-      items: 1.2
+      items: 1
     }
   };
 
@@ -42,31 +42,40 @@ const Features = () => {
     {
       id: 1,
       rating: "★★★★★",
+      rate: 4.8,
       name: "John Doe",
       body: ' "Globfolio has been a lifechanger for me as I now make 15%-20% profit on my trades" ',
       profilePic: "john-doe.jpg",
+      profession:"Risk Manager"
     },
     {
       id: 2,
+      rate: 4.7,
       rating: "★★★★★",
       name: "Jane Smith",
-      body: ' "Globfolio has been a lifechanger for me as I now make 15%-20% profit on my trades" ',
+      body: ' "Ive been using this service for a while, and it has completely transformed my trading strategy. Highly recommended!" ',
       profilePic: "jane-smith.jpg",
-    },
-    {
+      profession: "Crypto Investor",
+    },{
       id: 3,
+      rate: 4.8,
       rating: "★★★★★",
-      name: "Jane Smith",
-      body: ' "Globfolio has been a lifechanger for me as I now make 15%-20% profit on my trades" ',
+      name: "Bob Williams",
+      body: ' "I am so impressed with this platform. It has made a huge difference in my trading performance." ',
       profilePic: "jane-smith.jpg",
+      profession: "Commodity Analyst",
     },
     {
       id: 4,
+      rate: 4.5,
       rating: "★★★★★",
-      name: "Jane Smith",
+      name: "Alice Johnson",
       body: ' "Globfolio has been a lifechanger for me as I now make 15%-20% profit on my trades" ',
       profilePic: "jane-smith.jpg",
+      profession: "Stock Trader",
+
     },
+    
   ];
 
   const feat = [
@@ -192,7 +201,7 @@ const Features = () => {
               >
                 <div className="">
                   <div className={`star-rating review-${index}`}>
-                    {review.rating} <span>4.8</span>
+                    {review.rating} <span>{review.rate}</span>
                   </div>
                   <p className="pp">{review.body}</p>
                   <div className="name">
@@ -207,7 +216,7 @@ const Features = () => {
                     </svg>{" "}
                     <p>
                       {" "}
-                      Victor Ok <span>UI Designer</span>
+                      {review.name} <span>{review.profession}</span>
                     </p>
                   </div>
                 </div>
@@ -229,9 +238,15 @@ const Features = () => {
           <p>
           Globfolio has surpassed all odds, becoming the number one a for social traders and stock enthusiasts globally.
           </p>
-          <a className="download_btn" href="#d">
-            <TbDownload /> Download App
-          </a>
+          <div className="download_app">
+              <a className="download_btn bla" href="#d">
+              <AiFillApple /> Download App
+            </a>
+            <a className="download_btn" href="#d">
+              <BiLogoPlayStore /> Download App
+            </a>
+            
+            </div>
         </div>
       </div>
     </div>

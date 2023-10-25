@@ -60,42 +60,51 @@ const Pricing = () => {
   ];
     const sub = [
         {
-          head: "Starter",
-          price: 19,
+          head: "Free Plan",
+          price: "0",
           body: "Includes a free trial and features to match (with 12 mo. plan).",
           list: [
-            "Standard Performance",
-            "New Stocks",
-            "Limited Chat Rooms",
-            "Personal Chat Access",
-            "Premium Support",
-            "Latest Advisories",
+            "Learn from the pros",
+              "Connect with trader and investor",
+              "Sgare investing ideas and see new oppotunities",
+              "GEt new stock and asset Recommendation",
           ]
         },
         {
-            head: "Economy",
-            price: 59,
+            head: "Local Plan",
+            price: "30,000",
             body: "Includes a free trial and features to match (with 12 mo. plan).",
             list: [
-              "Standard Performance",
-              "New Stocks",
-              "Limited Chat Rooms",
-              "Personal Chat Access",
-              "Premium Support",
-              "Latest Advisories",
+              "Join our montly webinars",
+              "Early trade alerts on Nigerian Stock",
+              "Exclusive access to our community",
+              "Market insights and analysis",
+              "Access to Fixed in come market"
+           
             ]
           },
           {
-            head: "Premium",
-            price: 99,
+            head: "Global Plan",
+            price: "30,000",
             body: "Includes a free trial and features to match (with 12 mo. plan).",
             list: [
-              "Standard Performance",
-              "New Stocks",
-              "Limited Chat Rooms",
-              "Personal Chat Access",
-              "Premium Support",
-              "Latest Advisories",
+              "Access to fixed income market",
+              "early trade alerts on US stocks",
+              "Global market updates",
+              "Access to US stocks/ETFs",
+              "Access to montly webinars",
+            ]
+          },
+          {
+            head: "Supreme Plan",
+            price: "60,000",
+            body: "Includes a free trial and features to match (with 12 mo. plan).",
+            list: [
+              "Access to crude oil/ETFs",
+              "Free Tradibg/ Investing courses",
+              "Market analysis & insights",
+              "Unlimited access to rooms",
+             
             ]
           },
       ];
@@ -117,7 +126,7 @@ const Pricing = () => {
             {sub.map((item)=>(
                 <div className="price_card">
                     <h4>{item.head}</h4>
-                    <h3>$ <span>{item.price}</span>/mo</h3>
+                    <h3>₦ <span>{item.price}</span>/Yr</h3>
                     <p>{item.body}</p>
                     <a href="#d">Get Started</a>
                     <ul className="features-list">
@@ -184,7 +193,7 @@ const Pricing = () => {
             <div className="contact_right">
                 <div><img src={cont1} alt="" /><p>info@globfolio.com</p></div>
                 <div><img src={cont2} alt="" /><p>+234 701 2345 678</p></div>
-                <div><img src={cont3} alt="" /><p>company address, Lagos, Nigeria.</p></div>
+                <div><img src={cont3} alt="" /><p>Ajao Estate, Lagos.</p></div>
             </div>
             <div className="contact_left">
                 <form action="submit">

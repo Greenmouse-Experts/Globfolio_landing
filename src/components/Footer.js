@@ -3,6 +3,8 @@ import logo from "../image/darklogo.png"
 import {RiTwitterXFill, RiFacebookFill} from "react-icons/ri"
 import {SiInstagram} from "react-icons/si"
 import "../styles/navbar.css"
+import { AiFillApple } from "react-icons/ai";
+import {BiLogoPlayStore} from 'react-icons/bi'
 
 const Footer = () => {
   return (
@@ -11,7 +13,16 @@ const Footer = () => {
         <div className="footer_head">
             <h2 className="h2">Ready to take your portfolio <br />
 to the next level?</h2>
-<a href="#d">Download the App</a>
+{/* <a href="#d">Download the App</a> */}
+<div className="download_app">
+              <a className="download_btn bla" href="#d">
+              <AiFillApple /> Download App
+            </a>
+            <a className="download_btn" href="#d">
+              <BiLogoPlayStore /> Download App
+            </a>
+            
+            </div>
         </div>
 
         <div className="footer_body">
@@ -38,7 +49,6 @@ to the next level?</h2>
                 <div>
                     <p></p>
                     <a href="#d">Terms and condition</a>
-                    <a href="#d">Return Policy</a>
                     <a href="#d">Privacy Policy</a>
                 </div>
              

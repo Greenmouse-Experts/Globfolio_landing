@@ -1,5 +1,5 @@
 .price_main{
-    padding: 9rem 8%;
+    padding: 9rem 5%;
     background: #E8F7F7;
 }
 
@@ -44,9 +44,10 @@ gap: 1rem;
     width: 100%;
     display: grid;
     /* grid-template-columns: repeat(auto-fill,minmax(300px, 1fr)); */
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fill,minmax(22%, 1fr));
     gap: 3rem;
     place-items: center;
+    justify-content: space-between !important;
 }
 .price_card{
     border-radius: 20px;
@@ -56,6 +57,7 @@ padding: 3rem 2.5rem;
 text-align: center;
 display: flex;
 flex-direction: column;
+height: 100%;
 
 }
 
@@ -330,13 +332,23 @@ padding:1rem ;
 
 
 @media screen and (max-width: 1024px){
+    .price_main{
+        padding: 9rem 10%;
+    }
 
     .price-list{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
         justify-content: center;
     }
+
+    .price_card{
+        height: auto;
+        width: 100%;
+    }
+
+
     .contact_main{
         flex-direction: column;
         align-items: flex-start;
@@ -378,6 +390,9 @@ padding:1rem ;
         padding: 2.2rem 1rem 2.2rem 1rem;
         gap: 1.5rem;
 
+    }
+    .price_card h3 span{
+        font-size: 3rem !important;
     }
 }
 
