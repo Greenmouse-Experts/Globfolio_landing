@@ -152,11 +152,11 @@ const Home = () => {
             We do a top to bottom analysis of stocks, crude oil and fixed income markets while you profit from our recommendations
             </p>
             <div className="download_app">
-              <a className="download_btn bla" href="#d">
-              <AiFillApple /> Download App
+            <a className="download_btn" href="https://globfolio-user.netlify.app/auth/register">
+               Sign Up
             </a>
-            <a className="download_btn" href="#d">
-              <BiLogoPlayStore /> Download App
+            <a className="download_btn blacss" href="https://globfolio-user.netlify.app/auth/login">
+            <BsFillArrowRightCircleFill className="icon-sign"/> Sign In 
             </a>
             
             </div>
