@@ -13,6 +13,7 @@ import Easy from "./Easy";
 import Features from "./Features";
 import Pricing from "./Pricing";
 import Footer from "../components/Footer";
+import { BsFillArrowRightCircleFill  } from 'react-icons/bs'
 
 const Home = () => {
   const why = [
@@ -66,11 +67,12 @@ const Home = () => {
             Introducing the Globfolio app-- a platform for <br /> social traders and expert recommendations.
             </p>
             <div className="download_app">
-              <a className="download_btn blac" href="#d">
-              <AiFillApple /> Download App
+              
+            <a className="download_btn" href="https://globfolio-user.netlify.app/auth/register">
+               Sign Up
             </a>
-            <a className="download_btn" href="#d">
-              <BiLogoPlayStore /> Download App
+            <a className="download_btn blac" href="https://globfolio-user.netlify.app/auth/login">
+               Sign In <BsFillArrowRightCircleFill className="icon-sign"/>
             </a>
             
             </div>

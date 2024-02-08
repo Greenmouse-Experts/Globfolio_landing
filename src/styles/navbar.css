@@ -49,7 +49,12 @@
     background:transparent;
     margin-right: 2.7rem;
 }
-
+.login{
+    background-color: var(--back);
+    color: white !important;
+    padding: 0.6rem 1.6rem;
+    border-radius: 100px;
+}
 .nav_link button:hover{
     font-size: 1rem;
     color: var(--back);

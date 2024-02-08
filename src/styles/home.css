@@ -419,8 +419,13 @@ line-height: 27px; /* 180% */
     background: var(--back);
 }
 .blac{
-    background: white;
-    color: var(--green);
+    background: transparent;
+    color: white;
+    font-size: 18px;
+}
+.icon-sign{
+    font-size: 13px !important;
+    padding-left: 12px !important;
 }
 
 
