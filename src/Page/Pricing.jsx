@@ -85,7 +85,7 @@ const Pricing = () => {
           },
           {
             head: "Platinum Plan",
-            price: "30,000",
+            price: "120,000",
             body: "Includes a free trial and features to match (with 12 mo. plan).",
             list: [
               "Access to US stock room",
