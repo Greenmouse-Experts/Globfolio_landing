@@ -71,33 +71,33 @@ const Pricing = () => {
           ]
         },
         {
-            head: "Local Plan",
-            price: "30,000",
+            head: "Premiun Plan",
+            price: "80,000",
             body: "Includes a free trial and features to match (with 12 mo. plan).",
             list: [
-              "Join our montly webinars",
-              "Early trade alerts on Nigerian Stock",
-              "Exclusive access to our community",
+              "Access to fixed income market",
               "Market insights and analysis",
-              "Access to Fixed in come market"
+              "Join our monthly webinars",
+              "Exclusive access to our community",
+              "Early trade alerts on Nigerian stocks"
            
             ]
           },
           {
-            head: "Global Plan",
+            head: "Platinum Plan",
             price: "30,000",
             body: "Includes a free trial and features to match (with 12 mo. plan).",
             list: [
-              "Access to fixed income market",
-              "early trade alerts on US stocks",
-              "Global market updates",
-              "Access to US stocks/ETFs",
-              "Access to montly webinars",
+              "Access to US stock room",
+              "Exclusive access to our community",
+              "Market insights and analysis",
+              "Access to monthly webinars",
+              "Access to US stocks/ETF picks",
             ]
           },
           {
-            head: "Supreme Plan",
-            price: "60,000",
+            head: "Global Plan",
+            price: "180,000",
             body: "Includes a free trial and features to match (with 12 mo. plan).",
             list: [
               "Access to crude oil/ETFs",

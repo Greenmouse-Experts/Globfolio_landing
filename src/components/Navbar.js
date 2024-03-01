@@ -75,7 +75,7 @@ const Navbar = () => {
         </a>
         {/* <a className="come disabled-link" href="##" disabled={true}>Courses <span>Coming Soon</span></a> */}
         <a
-          href="https://globfolio-user.netlify.app/auth/login"
+          href="https://user.globfolio.com/auth/login"
           className="login"
           onClick={toggle}
           onBlur={hide}
@@ -84,7 +84,7 @@ const Navbar = () => {
           Login
         </a>
         <a
-          href="https://globfolio-user.netlify.app/auth/register"
+          href="https://user.globfolio.com/auth/register"
           className="download"
           onClick={toggle}
           onBlur={hide}

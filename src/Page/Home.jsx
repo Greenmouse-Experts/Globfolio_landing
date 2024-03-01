@@ -68,10 +68,10 @@ const Home = () => {
             </p>
             <div className="download_app">
               
-            <a className="download_btn" href="https://globfolio-user.netlify.app/auth/register">
+            <a className="download_btn" href="https://user.globfolio.com/auth/register">
                Sign Up
             </a>
-            <a className="download_btn blac" href="https://globfolio-user.netlify.app/auth/login">
+            <a className="download_btn blac" href="https://user.globfolio.com/auth/login">
                Sign In <BsFillArrowRightCircleFill className="icon-sign"/>
             </a>
             
@@ -152,10 +152,10 @@ const Home = () => {
             We do a top to bottom analysis of stocks, crude oil and fixed income markets while you profit from our recommendations
             </p>
             <div className="download_app">
-            <a className="download_btn" href="https://globfolio-user.netlify.app/auth/register">
+            <a className="download_btn" href="https://user.globfolio.com/auth/register">
                Sign Up
             </a>
-            <a className="download_btn blacss" href="https://globfolio-user.netlify.app/auth/login">
+            <a className="download_btn blacss" href="https://user.globfolio.com/auth/login">
             <BsFillArrowRightCircleFill className="icon-sign"/> Sign In 
             </a>
             
